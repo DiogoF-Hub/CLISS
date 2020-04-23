@@ -39,7 +39,7 @@
 
     #nav {
         position: fixed;
-        background-color: red;
+        background-color: blue;
         height: 50px;
         top: 0px;
         left: 0px;
@@ -48,13 +48,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
-
-    #divNav {
-        
-    }
-    
+ 
     .section1 {
         position: relative;
         top: 85px;
@@ -97,87 +92,70 @@
         height: 130px;   
     }
 
-    #AMD3800image {
-        width: 123px;
-        height: 103px;
-    }
 
-    #MSI2080Simage {
-        width: 123px;
-        height: 123px;
-    }
-
-    #MSI2080S {
+    #aclass1 {
         position: relative;
-        left: 200px;
-        top: -219px;
+        left: -10px;
+        font-size: 30px;
+        color: black;
+        
     }
 
-    #MSIX570EDGEimage {
-        width: 161px;
-        height: 136px;
-    }
-
-    #MSIX570EDGE {
+    #aclass2 {
         position: relative;
-        left: 485px;
-        top: -453px;
+        right: 5px;
+        font-size: 30px;
+        color: black;
     }
 
-    #GSkillNeo16GbRamimage {
-        width: 145px;
-        height: 145px; 
-    }
-
-    #GSkillNeo16GbRam {
+    #aclass3 {
         position: relative;
-        left: 735px;
-        top: -694px;
+        left: 5px;
+        font-size: 30px;
+        color: black;
     }
 
-    #CoolerMasterML240PMirageImage {
-        width: 150px;
-        height: 150px; 
-    }
-
-    #CoolerMasterML240PMirage {
+    #aclass4 {
         position: relative;
-        left: 950px;
-        top: -938px;
+        right: -10px;
+        font-size: 30px;
+        color: black;
     }
 
-    #CrucialNVMe1ToImage {
-        width: 140px;
-        height: 140px; 
+    #aclass1:hover, #aclass2:hover, #aclass3:hover, #aclass4:hover, .texthoverhome:hover {
+        background-color: yellowgreen;
     }
 
-    #CrucialNVMe1To {
-        position: relative;
-        left: 1275px;
-        top: -1173px;
+    #homeH1 {
+        font-size: 35px;
     }
 
-    #SeagateSSHD1ToImage {
-        width: 135px;
-        height: 135px; 
+    #homeB1 {
+        font-size: 20px;
     }
 
-    #SeagateSSHD1To {
-        position: relative;
-        left: 1500px;
-        top: -1406px;
+    #sometexthome {
+        display: flex;
+        align-items: center;
     }
 
-    #CoolerMasterV750Image {
-        width: 130px;
-        height: 130px; 
+    .productimage {
+        height: 140px;
     }
 
-    #CoolerMasterV750 {
-        position: relative;
-        left: 1740px;
-        top: -1632px;
+    .product {
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
     }
+
+    #firstlineproducts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
     
 
 

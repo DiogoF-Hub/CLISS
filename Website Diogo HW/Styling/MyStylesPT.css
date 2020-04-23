@@ -39,7 +39,7 @@
 
     #nav {
         position: fixed;
-        background-color: red;
+        background-color: blue;
         height: 50px;
         top: 0px;
         left: 0px;
@@ -49,10 +49,6 @@
         justify-content: center;
         align-items: center;
 
-    }
-
-    #divNav {
-        
     }
     
     .section1 {
@@ -177,6 +173,38 @@
         position: relative;
         left: 1740px;
         top: -1632px;
+    }
+
+    #aclass1 {
+        position: relative;
+        left: -10px;
+        font-size: 30px;
+        color: black;
+    }
+
+    #aclass2 {
+        position: relative;
+        right: 5px;
+        font-size: 30px;
+        color: black;
+    }
+
+    #aclass3 {
+        position: relative;
+        left: 5px;
+        font-size: 30px;
+        color: black;
+    }
+
+    #aclass4 {
+        position: relative;
+        right: -10px;
+        font-size: 30px;
+        color: black;
+    }
+
+    #aclass1:hover, #aclass2:hover, #aclass3:hover, #aclass4:hover {
+        background-color: yellowgreen;
     }
     
 
