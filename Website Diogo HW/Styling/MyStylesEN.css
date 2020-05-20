@@ -29,9 +29,6 @@
     justify-content: flex-start;
 }
 
-  .aclass:hover {
-    background-color: red;
-  }
 
   .qv1:nth-child(2n+0) { 
     background-color: cyan;
@@ -39,14 +36,14 @@
 
     #nav {
         position: fixed;
-        background-color: blue;
+        background-color: lightblue;
         height: 50px;
         top: 0px;
         left: 0px;
         width: 100%;
         z-index: 10;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
  
@@ -64,18 +61,6 @@
         height: 35px;
     }
 
-    #languageDIV {
-        display: flex;
-        justify-content: flex-end;
-
-    }
-
-    #pictureDIV {
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        z-index: 11; 
-    }
 
     #Lpem1 {
         display: flex;
@@ -93,36 +78,16 @@
     }
 
 
-    #aclass1 {
+
+    .aclass{
         position: relative;
-        left: -10px;
         font-size: 30px;
         color: black;
-        
+        text-decoration: none;
+        margin: 13px;
     }
 
-    #aclass2 {
-        position: relative;
-        right: 5px;
-        font-size: 30px;
-        color: black;
-    }
-
-    #aclass3 {
-        position: relative;
-        left: 5px;
-        font-size: 30px;
-        color: black;
-    }
-
-    #aclass4 {
-        position: relative;
-        right: -10px;
-        font-size: 30px;
-        color: black;
-    }
-
-    #aclass1:hover, #aclass2:hover, #aclass3:hover, #aclass4:hover, .texthoverhome:hover {
+    .aclass:hover, .dropbtn:hover{
         background-color: yellowgreen;
     }
 
@@ -156,7 +121,57 @@
     }
 
 
+    /* drop down menu contact */
+    .dropbtn {
+        font-size: 30px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        
+        
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: yellowgreen;}
     
 
+      /* @media querry */
+
+      @media screen and (max-width: 1000px) {
+        #nav {
+        position: fixed; 
+        height: 100%;
+        top: 0px;
+        width: 18%; 
+        z-index: 10;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: lightblue;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        }
+        }
 
 
+       
