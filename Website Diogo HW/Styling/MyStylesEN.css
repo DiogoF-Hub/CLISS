@@ -1,8 +1,4 @@
-#Pcenter {
-    text-align: center;
-}
-
-#Divcentered {
+.centerClass {
     text-align: center;
 }
 
@@ -29,144 +25,145 @@
     justify-content: flex-start;
 }
 
-
-  .qv1:nth-child(2n+0) { 
+.qv1:nth-child(2n + 0) {
     background-color: cyan;
-    }
+}
 
+#nav {
+    position: fixed;
+    background-color: lightblue;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 {
+    position: relative;
+    top: 85px;
+}
+
+#a {
+    font-size: 250%;
+}
+
+#language1 {
+    width: 53px;
+    height: 35px;
+}
+
+#Lpem1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#phone {
+    width: 135px;
+    height: 135px;
+}
+
+#email {
+    width: 130px;
+    height: 130px;
+}
+
+.aclass {
+    position: relative;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin: 13px;
+}
+
+.aclass:hover,
+.dropbtn:hover,
+.texthoverhome:hover,
+.greenPrice:hover {
+    background-color: yellowgreen;
+}
+
+#homeH1 {
+    font-size: 35px;
+}
+
+#homeB1 {
+    font-size: 20px;
+}
+
+#sometexthome {
+    display: flex;
+    align-items: center;
+}
+
+.productimage {
+    height: 140px;
+}
+
+.product {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+#firstlineproducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dropbtn {
+    font-size: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: #f1f1f1;
+    min-width: 190px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellowgreen;
+}
+
+.dropAdress {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* @media querry */
+
+@media screen and (max-width: 1000px) {
     #nav {
         position: fixed;
-        background-color: lightblue;
-        height: 50px;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        z-index: 10;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
- 
-    .section1 {
-        position: relative;
-        top: 85px;
-    }
-
-    #a {
-        font-size: 250%;
-    }
-
-    #language1 {
-        width: 53px;
-        height: 35px;
-    }
-
-
-    #Lpem1 {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    #phone {
-        width: 135px;
-        height: 135px;
-    }
-
-    #email {
-        width: 130px;
-        height: 130px;   
-    }
-
-
-
-    .aclass{
-        position: relative;
-        font-size: 30px;
-        color: black;
-        text-decoration: none;
-        margin: 13px;
-    }
-
-    .aclass:hover, .dropbtn:hover, .texthoverhome:hover, .greenPrice:hover {
-        background-color: yellowgreen;
-    }
-
-    #homeH1 {
-        font-size: 35px;
-    }
-
-    #homeB1 {
-        font-size: 20px;
-    }
-
-    #sometexthome {
-        display: flex;
-        align-items: center;
-    }
-
-    .productimage {
-        height: 140px;
-    }
-
-    .product {
-        background-color: burlywood;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #firstlineproducts {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-
-    /* drop down menu contact */
-    .dropbtn {
-        font-size: 30px;
-      }
-
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 190px;
-        
-        
-      }
-      
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-      
-      .dropdown-content a:hover {background-color: #ddd;}
-      
-      .dropdown:hover .dropdown-content {display: block;}
-      
-      .dropdown:hover .dropbtn {background-color: yellowgreen;}
-
-      .dropAdress {
-          color: blue;
-          text-decoration: underline;
-      }
-    
-
-      /* @media querry */
-
-      @media screen and (max-width: 1000px) {
-        #nav {
-        position: fixed; 
         height: 100%;
         top: 0px;
-        width: 18%; 
+        width: 170px;
         z-index: 10;
         justify-content: center;
         align-items: flex-start;
@@ -175,8 +172,17 @@
         top: 0px;
         left: 0px;
         display: flex;
-        }
-        }
+    }
+    .aclass {
+        margin: 0px;
+    }
 
+    .section1 {
+        margin-left: 175px;
+    }
 
-       
+    .dropdown-content {
+        left: 100%;
+        top: 0;
+    }
+}
