@@ -87,7 +87,7 @@
         margin: 13px;
     }
 
-    .aclass:hover, .dropbtn:hover{
+    .aclass:hover, .dropbtn:hover, .texthoverhome:hover, .greenPrice:hover {
         background-color: yellowgreen;
     }
 
@@ -135,7 +135,7 @@
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 160px;
+        min-width: 190px;
         
         
       }
@@ -152,6 +152,11 @@
       .dropdown:hover .dropdown-content {display: block;}
       
       .dropdown:hover .dropbtn {background-color: yellowgreen;}
+
+      .dropAdress {
+          color: blue;
+          text-decoration: underline;
+      }
     
 
       /* @media querry */
