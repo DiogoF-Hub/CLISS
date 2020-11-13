@@ -1,6 +1,11 @@
 let number = 0
-var currentcolorBox = "redBox"
+var currentcolorBox = "blueBox"
 function addBox(){
+    if(currentcolorBox =="blueBox"){
+        currentcolorBox = "redBox"
+    }
+
+    else
     if(currentcolorBox == "redBox"){
         currentcolorBox = "greenBox"
     }
@@ -10,10 +15,6 @@ function addBox(){
         currentcolorBox = "blueBox"
     }
 
-    else
-    if(currentcolorBox =="blueBox"){
-        currentcolorBox = "redBox"
-    }
 
     number++;
     document.getElementById("bodyId").innerHTML += '<div class="box '+ currentcolorBox +'">'+ number +'</div>'
