@@ -8,14 +8,21 @@
     <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
     <script src='picture.js'></script>
     <style>
+        .allCards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
         .img{
+            display: inline-block;
             width: 100px;
             height: 166px;
         }
     </style>
 </head>
-<body>
-    <div id="divcat">
+<body onload="Start();">
+    <div id="divAllCards">
         <img class="img" onclick="imageclicked();" src="backcard.png" alt="backcard">
     </div>
 </body>
