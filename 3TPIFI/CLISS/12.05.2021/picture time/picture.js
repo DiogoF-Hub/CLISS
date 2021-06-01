@@ -23,7 +23,7 @@ function cardClicked(idOfClickedCard, PokemonIndex) {
     if (CardRevealed != 2) {
         document.getElementById(idOfClickedCard).src = PokemonImages[PokemonIndex];
         CardRevealed++;
-        var cardClickedAudio = new Audio('Adúlti_Xupa_Cabra.mp3');
+        var cardClickedAudio = new Audio('Quack_Sound_Effect.mp3');
         cardClickedAudio.play();
     }
 
